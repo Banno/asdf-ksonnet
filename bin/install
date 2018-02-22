@@ -10,9 +10,7 @@ set \
 : ${ASDF_INSTALL_VERSION?}
 : ${ASDF_INSTALL_PATH?}
 
-# detect the tool name
-readonly __dirname="$(cd -P "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-readonly toolname="$(basename "$(dirname "${__dirname}")")"
+readonly toolname="ksonnet"
 
 # make a temporary download directory with a cleanup hook
 readonly TMP_DOWNLOAD_DIR="$(mktemp -d -t "asdf_${toolname}_XXXXXX")"
