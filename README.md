@@ -7,7 +7,7 @@ ksonnet tools plugin for [asdf](https://github.com/asdf-vm/asdf) version manager
 ## Install
 
 ```
-asdf plugin-add kubecfg https://github.com/Banno/asdf-ksonnet.git
+asdf plugin-add ksonnet https://github.com/Banno/asdf-ksonnet.git
 ```
 
 ## Use
