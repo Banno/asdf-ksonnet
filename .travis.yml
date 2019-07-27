@@ -11,6 +11,3 @@ script:
   - asdf plugin-add ksonnet ./
   - asdf list-all ksonnet
   - asdf plugin-test ksonnet ./ 'ks version'
-  - asdf plugin-add kubecfg ./
-  - asdf list-all kubecfg
-  - asdf plugin-test kubecfg ./ 'kubecfg version'
